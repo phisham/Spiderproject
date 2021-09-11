@@ -1,0 +1,15 @@
+#hero{
+    background-image: url(https://media4.giphy.com/media/3o7aD6L3BHd76R0RCE/giphy.gif?cid=ecf05e47yrbh5ja61davqimkxiw414dkzrgrmzgx3f90kwxz&rid=giphy.gif&ct=g);
+    height: 100%;
+    background-size: cover;
+    color: beige;
+}
+.k,.h,.i{
+    text-shadow: black 2px 2px 2px;
+}
+.done{
+    box-shadow: black 8px 8px 8px;
+}
+.pic{
+    text-shadow: rgb(3, 3, 3) 8px 8px 8px;
+}

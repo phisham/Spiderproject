@@ -1,0 +1,178 @@
+
+<nav id="navnew" class="navbar navbar-expand-md sticky-top text-light" style="background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-electronic-technology-website-texture-background-banner-image_156039.jpg);background-size: cover; height: 100px;" (scroll)="onWindowScroll();">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light" href="#hero"><strong style="font-size: 2em;"> STACKLIN FRODISTER</strong></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-light"  aria-current="page" style="font-size:2em;" href="#hero">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-light" style="font-size:2em;" href="https://github.com">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" style="font-size:2em;" href="#skills">My Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" style="font-size:2em;" href="#works">My Works</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link text-light" style="font-size:2em;" href="#Cont">Contact me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" style="font-size:2em;" href="https://github.com/phisham/phisham_projects"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+<hr>
+
+
+<section id="hero" class="d-flex justify-content-sm-center justify-content-md-evenly align-items-center  flex-column-reverse gap-3  mt-4">
+    <div ng-app="start" ng-controller="ctrl"  id="heko" class="d-flex justify-content-sm-center align-items-center  flex-column justify-content-md-start align-items-md-start">
+      <h1 class="k" ng-hide="a">Hi!👋</h1>
+      <h1 class="h" ng-hide="b">I'm <strong>Stacklin Frodister</strong></h1>
+      <h1 class="i" ng-hide="c">A Fullstack developer!</h1>
+      <button mat-raised-button color="accent" ng-hide="d">My Resume😜</button>
+    </div>
+    <div id="img" class="d-flex w-10 h-10">
+      <img src="https://www.imagediamond.com/blog/wp-content/uploads/2020/06/cartoon-boy-images.jpg" class="rounded-circle" style="width: 200px;height: 200px;">
+    </div>
+    
+</section>
+
+
+
+<hr/>
+<br><br>
+
+<section class="text-center" id="skills" class="mt-5 p-4">
+  <div (click)="press()" class="text-center" >
+    <button class="done" mat-raised-button style="margin: 2px rgb(233, 248, 16);border-radius: 40%;height: 3em;font-size: 3em;background-color: transparent;color: beige;">SKILL SET</button>
+  </div>
+
+  <div *ngIf="show" style="align-items: center;" class=" mt-4 d-flex flex-column text-center">
+    <img style="width: 200px;height: 200px;" src="https://image.flaticon.com/icons/png/512/919/919827.png" alt="">
+    <br>
+    <img style="width: 200px;height: 200px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Javascript-shield.svg/726px-Javascript-shield.svg.png" alt="">
+    <br>
+    <img style="width: 200px;height: 200px;" src="https://icon-library.com/images/node-js-icon/node-js-icon-8.jpg" alt="">
+    <br>
+    <img style="width: 200px;height: 200px;" src="https://angular.io/assets/images/logos/angular/angular.png" alt="">
+    <br>
+  </div> 
+ 
+ 
+
+  </section>
+  <section id="works" class="mt-4 p-4 text-center">
+    <div (click)="press1()" class="text-center mb-5">
+      <button class="done" mat-raised-button style="margin: 2px rgb(188, 201, 17);border-radius: 40%;height: 3em;font-size: 3em;background-color: transparent;color: beige;">MY WORKS</button>
+    </div>
+  <div *ngIf="show1" class="d-flex flex-column gap-3 text-center" style="align-items: center;" >
+
+    <div id="card0" class="card mb-2 text-center" style="width: 80vw;">
+      <img src="https://cdn.pixabay.com/photo/2018/09/18/19/55/woman-3687084_960_720.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <h5 class="card-title">Project 1</h5>
+       <p class="card-text">Built an amazing project using Nodejs</p>
+       <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+    <div id="card1" class="card mb-2" style="width: 80vw;">
+      <img src="https://cdn.pixabay.com/photo/2018/09/18/19/55/woman-3687084_960_720.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+       <h5 class="card-title">Project 2</h5>
+       <p class="card-text">Built a website</p>
+       <a href="#" class="btn btn-dark">View Site <i class="https://webdev-blood-banknew.herokuapp.com/"></i></a>
+      </div>
+    </div>
+    
+    <div id="card2" class="card mb-2" style="width: 80vw;">
+      <img src="https://cdn.pixabay.com/photo/2018/09/18/19/55/woman-3687084_960_720.jpg">
+      <div class="card-body">
+       <h5 class="card-title">Project 3</h5>
+       <p class="card-text">Built an amazing project using Angular</p>
+       <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    
+    <div id="card3" class="card mb-2 " style="width: 80vw;">
+
+      <img src="https://cdn.pixabay.com/photo/2018/09/18/19/55/woman-3687084_960_720.jpg">
+      <div class="card-body">
+       <h5 class="card-title">Project 4</h5>
+       <p class="card-text">Built an amazing Color Change System and Color Code Finder</p>
+       <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+  </div>
+<section id="Cont" class="mt-4 py-4 text-center">
+  <div (click)="press2()" class="text-center mb-5">
+      <button class="done" mat-raised-button style="margin: 2px rgb(188, 201, 17);border-radius: 40%;height: 3em;font-size: 3em;background-color: transparent;color: beige;">CONTACT FORM</button>
+  </div>
+<div *ngIf="show2"  class="row">
+ <div class="col-sm col-md-8 text-center" style="box-shadow: brown 2px 2px 2px 2px;background-color: rgb(228, 215, 215);">
+  <mat-form-field style="width: 100%;">
+     <input matInput placeholder="Enter your message" [formControl]="nameFormControl" />
+     <mat-error *ngIf="nameFormControl.hasError('minlength')">
+        Name must be at least 4 characters long.
+      </mat-error>
+      <mat-error *ngIf="nameFormControl.hasError('required')">
+        Name is <strong>required</strong>
+      </mat-error>
+      <br><br>
+    <button
+      mat-raised-button
+      [disabled]="nameFormControl.invalid || loading"
+      color="primary"
+      (click)="register()"
+    >
+     Submit
+    </button>
+  </mat-form-field>
+ </div>
+ <div class="col sm col-md-4">
+ 
+
+ <div class="mt-3">
+    <h4 class="text-light"><i class="fas fa-at text-light"></i>portfolio@gmail.com</h4>
+
+     <button type="button" class="btn btn-dark">
+     <a href="https://github.com" ><i class="fab fa-github"></i></a>
+     </button>
+ 
+ </div>
+</div>
+</div>
+
+
+
+
+
+
+</section>
+<footer class="d-flex flex-column ms-auto" style="background-color: rgb(17, 17, 16);width: 100%;color: beige;bottom: 0%;margin-top: 5%;">
+  <h1>Developer @ phisham100@gmail.com</h1>
+  <h2 style="font-size: 2em;">&#169;</h2>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<router-outlet></router-outlet>
