@@ -49,12 +49,12 @@ export class AppComponent {
       
     }
     console.log(user.name);
-    alert("submitted succesfully"+user.name);
+    alert("submitted succesfully");
     this.http.sendEmail("http://localhost:3000/sendmail", user).subscribe(
       data => {
         let res:any = data; 
         console.log(
-          `👏 > 👏 > 👏 > 👏 ${user.name} is successfully register and mail has been sent and the message id is ${res.messageId}`
+          `${user.name} is successfully register and mail has been sent and the message id is ${res.messageId}`
         );
       },
       err => {
